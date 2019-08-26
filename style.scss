@@ -1,0 +1,63 @@
+
+$secondary-color:yellow;
+$nav-color:green;
+$font-size-factor:2;
+
+@mixin border-rounded($radius)
+{  
+    @if $radius > 50 {
+        $radius:50px;}
+
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+     border-radius: $radius;
+}
+
+.main-nav
+{
+    border: 1px $nav-color solid;
+
+    ul
+    {
+        display:flex;
+        justify-content: space-between;
+        list-style-type:none;
+
+        li
+        {
+            font-weight: bold;
+            display: inline;
+        }
+    }
+}
+
+%div-base
+{
+    border: 3px $primary-color solid;
+    background-color:$secondary-color;
+    @include border-rounded(1px);
+}
+
+.slightly-rounded
+{
+    @extend %div-base;
+    @include border-rounded(7px);
+    font-size: $font-size-factor * 7 *10%;
+}
+
+.medium-rounded
+{
+    @extend %div-base;
+    @include border-rounded(10px);
+    font-size: $font-size-factor * 10*10%; ;
+}
+
+.heavy-rounded
+{
+    @extend %div-base;
+    @include border-rounded(70px);
+    font-size: $font-size-factor * 20 *10%;;
+}
+

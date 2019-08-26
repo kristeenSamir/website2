@@ -1,0 +1,50 @@
+/*#left{
+
+    float:none;
+    width: 100%;
+}
+#base,#Signup,#spansPics,#TastemakersList{
+    width:100%;
+}
+#LATESTTWEET,#LetsBeFriends,#Forweeklyfinds,#buttonF
+{
+    display: none;
+}
+
+nav{
+    float: none;
+    width: 100%;
+}
+nav .navbar ul {
+    float: left;
+}
+nav .navbar ul li{
+   
+    padding-right: 5rem;
+    
+}
+.nav-item,.nav-link{
+    width: 100%;
+    
+    padding-right: 6rem;
+}
+a{
+    display: inline;
+    padding-right: 7rem;
+}
+.navbar-brand img{
+    display: none;
+}
+#imgAgain{
+    display: inline;
+}*/
+#TastemakersList
+{
+    height: 1rem;
+}
+#TastemakersList p{
+    display: none;
+}
+#tweet1 {
+    margin-top:0rem;
+}

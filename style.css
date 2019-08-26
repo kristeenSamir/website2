@@ -1,0 +1,157 @@
+#left
+{
+   
+    width: 20%;
+}
+
+#demo
+{
+    
+    width: 80%;
+}
+.nav-link
+{
+    color:#34AB97;
+}
+.nav-item a:hover{
+    color: red;
+  text-decoration: none;
+}
+#LATESTTWEET a:hover{
+    text-decoration: none;
+    background-color: rgb(145, 248, 231);
+}
+
+i{
+    vertical-align:middle;
+    
+}
+a{
+    
+font-size: 78%;
+font-style: italic;
+font-weight: inherit;
+
+}
+#LATESTTWEET .button
+{
+    width: 75%;
+    display: block;
+    border-radius: 7px;
+    border: 1px solid #E5E5E5;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+}
+span{
+   font-size: 1rem;
+   font-style: italic;
+   font-weight: inherit; 
+}
+#LATESTTWEET
+{
+    width: 20%;
+    padding: 0rem 0.5rem;
+    
+}
+#TastemakersList{
+    width: 80%;
+   
+}
+#TastemakersList ul li{
+    width: 100%;
+    background-color: #EFF8F7;
+}
+#LetsBeFriends
+{
+    width: 100%;
+    padding: 0rem 0.5rem;
+}
+#Forweeklyfinds
+{
+    width:20%;
+    padding: 0.5rem 0.5rem;
+}
+#Signup{
+    width: 80%;
+    padding: 0.5rem 0.5rem;
+    
+
+}
+#message
+{
+    width: 5%;
+    border-top: dotted 2px #E5E5E5;
+    border-bottom: dotted 2px #E5E5E5;
+}
+#SignupP{
+    width:60%;
+    border-top: dotted 2px #E5E5E5;
+    border-bottom: dotted 2px #E5E5E5;
+}
+#Email
+{
+    width: 40%;
+    height: 30%;;
+    border-top: dotted 2px #E5E5E5;
+    border-bottom: dotted 2px #E5E5E5;
+    padding-top: 0.5rem;
+}
+#buttonF
+{
+    width: 20%;
+    padding: 0rem 0.5rem;
+    
+}
+#buttonF .button
+{
+    width: 75%;
+    display: block;
+    border-radius: 7px;
+    border: 1px solid #E5E5E5;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+}
+#spansPics
+{
+    width:80%;
+}
+#spansPics span{
+    
+    padding-right:  1.5rem;
+    width: 25%;
+
+}
+#spansPics span img{
+    width: 100%;
+    border: 0.1rem solid #E5E5E5;
+    padding: 0.5rem 0.5rem;
+
+}
+.date{
+    color: gray;
+}
+.date a{
+    color: #34AB97;
+    text-decoration: none;
+}
+#spansPics a{
+    color: #34AB97;
+    text-decoration: none;
+
+}
+#footer{
+    padding-top: 3rem;
+
+
+}
+#footer a{
+    color: #34AB97;
+    text-decoration: none;
+}
+#footer{
+    border-top: 1px solid #E5E5E5;
+    padding-top: 1rem;
+}
+.blockquote{
+    float: left;
+}
